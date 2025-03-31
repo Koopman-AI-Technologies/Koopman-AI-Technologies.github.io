@@ -30,21 +30,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "For my complete CV, download the pdf.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
-        },{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-happy-new-year-champagne",
-          title: 'Happy New Year! :champagne:',
-          description: "",
-          section: "News",},{id: "news-the-day-i-published-this-site-sparkles-smile",
-          title: 'The day I published this site! :sparkles: :smile:',
+        },{id: "news-founding-of-koopman-ai-technologies",
+          title: 'Founding of Koopman AI Technologies.',
           description: "",
           section: "News",},{
         id: 'social-email',
