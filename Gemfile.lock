@@ -1,11 +1,3 @@
-GIT
-  remote: https://github.com/RobertoJBeltran/jekyll-terser.git
-  revision: 1085bf66d692799af09fe39f8162a1e6e42a3cc4
-  specs:
-    jekyll-terser (0.2.3)
-      jekyll (>= 0.10.0)
-      terser (>= 1.0.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -124,8 +116,7 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
-    jekyll-archives-v2 (0.0.6)
-      activesupport
+    jekyll-archives (2.3.0)
       jekyll (>= 3.6, < 5.0)
     jekyll-email-protect (1.1.0)
     jekyll-feed (0.17.0)
@@ -255,6 +246,7 @@ GEM
     uglifier (4.2.1)
       execjs (>= 0.3.0, < 3)
     unicode-display_width (2.6.0)
+    unicode_utils (1.4.0)
     uri (1.0.3)
     webrick (1.9.1)
 
@@ -278,7 +270,7 @@ DEPENDENCIES
   feedjira
   httparty
   jekyll
-  jekyll-archives-v2
+  jekyll-archives
   jekyll-email-protect
   jekyll-feed
   jekyll-get-json
@@ -291,12 +283,14 @@ DEPENDENCIES
   jekyll-scholar
   jekyll-sitemap
   jekyll-tabs
-  jekyll-terser!
   jekyll-toc
   jekyll-twitter-plugin
   jemoji
   observer
   ostruct
+  terser
+  unicode_utils
+  webrick
 
 BUNDLED WITH
    2.6.5
