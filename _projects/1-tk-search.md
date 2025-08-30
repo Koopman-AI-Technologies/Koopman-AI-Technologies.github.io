@@ -16,6 +16,7 @@ This project aimed to develop an automated assistant for processing political in
 The tool we developed integrates daily monitoring of relevant websites, such as [tweedekamer.nl](https://www.tweedekamer.nl/) and [rijksoverheid.nl](https://www.rijksoverheid.nl/), to gather and process key information. It enabled users to access summaries, and a grounded interactive chatbot for real-time Q&A, providing both speed and accuracy. A central knowledge base was created to store all data, making it searchable by topics, dates, or keywords for comprehensive data management.
 
 The final deliverables included:
+
 - A functional AI tool capable of gathering information from different sources.
 - Generation of summaries at various levels of detail.
 - An up-to-date, organized knowledge base.
@@ -33,17 +34,18 @@ The backend was built using **.NET 9** and **ASP.NET Core Web API**, providing a
   - **Azure Cognitive Search** for the intelligent search functionality.
   - **Azure Cosmos DB** for storing documents.
   - **Azure Cognitive Speech Services** for transcribing debates.
-- **Web Scraping and Automation:** 
+- **Web Scraping and Automation:**
   - **Playwright** for robust web scraping.
   - **Quartz.NET** to schedule daily data gathering tasks.
-- **Data Processing:** 
+- **Data Processing:**
   - **PdfPig** to extract text from PDF documents.
   - **YoutubeDLSharp** to process video content from debates.
 
 ### Frontend Development
 
-The frontend was developed using **Next.js**, **React**, and **TypeScript**, creating a fast and modern user experience. 
-- The UI was styled with **Tailwind CSS**. 
+The frontend was developed using **Next.js**, **React**, and **TypeScript**, creating a fast and modern user experience.
+
+- The UI was styled with **Tailwind CSS**.
 - **SignalR** was also used on the frontend to receive real-time updates from the backend.
 
 ## What I Learned
