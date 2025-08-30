@@ -1,21 +1,24 @@
 ---
-layout: post
+layout: page
 title: Automated Political Information Assistant
 description: An AI-powered tool to automate the processing of political information from the Dutch House of Representatives.
-date: 2025-08-29 12:00:00+0200
-categories: RAG system
-tags: [c#, .net, azure, ai, signalr, next.js, react]
-img: 
+category: RAG
+img: assets/img/RobidusServices.png
 importance: 1
 ---
 
-This project aimed to develop an automated assistant for processing political information, addressing inefficiencies in handling debates and publications from the Dutch House of Representatives. Previously, manual tasks such as monitoring the agenda, transcribing debates, and linking documents were time-consuming and inconsistent. The solution we built automates these processes to save time, enhance reliability, and improve information accessibility for staff.
+This project aimed to develop an automated assistant for processing political information, addressing inefficiencies in handling debates and publications from the Dutch House of Representatives. Previously, manual tasks such as monitoring the agenda, transcribing debates, and linking documents were time-consuming and inconsistent.
+
+> The solution we built automates processes to save time, enhance reliability, and improve information accessibility.
 
 ## The Solution
 
 The tool we developed integrates daily monitoring of relevant websites, such as [tweedekamer.nl](https://www.tweedekamer.nl/) and [rijksoverheid.nl](https://www.rijksoverheid.nl/), to gather and process key information. It enabled users to access summaries, and a grounded interactive chatbot for real-time Q&A, providing both speed and accuracy. A central knowledge base was created to store all data, making it searchable by topics, dates, or keywords for comprehensive data management.
 
-The final deliverables included a functional AI tool capable of gathering information from different sources and generating summaries at various levels of detail, along with an up-to-date, organized knowledge base.
+The final deliverables included:
+- A functional AI tool capable of gathering information from different sources.
+- Generation of summaries at various levels of detail.
+- An up-to-date, organized knowledge base.
 
 ## My Role and Technologies Used
 
@@ -25,13 +28,23 @@ As one of two developers on this project, I was co-responsible for the end-to-en
 
 The backend was built using **.NET 9** and **ASP.NET Core Web API**, providing a high-performance and scalable foundation. Key components included:
 
-- **Azure AI Services:** We leveraged a suite of Azure services to power the AI capabilities, including **Azure OpenAI** for generating summaries, **Azure Cognitive Search** for the intelligent search functionality, **Azure Cosmos DB** for storing documents, and **Azure Cognitive Speech Services** for transcribing debates.
-- **Web Scraping and Automation:** We used **Playwright** for robust web scraping of websites and **Quartz.NET** to schedule daily data gathering tasks, ensuring the information was always up-to-date.
-- **Data Processing:** We used **PdfPig** to extract text from PDF documents and **YoutubeDLSharp** to process video content from debates.
+- **Azure AI Services:** We leveraged a suite of Azure services to power the AI capabilities:
+  - **Azure OpenAI** for generating summaries.
+  - **Azure Cognitive Search** for the intelligent search functionality.
+  - **Azure Cosmos DB** for storing documents.
+  - **Azure Cognitive Speech Services** for transcribing debates.
+- **Web Scraping and Automation:** 
+  - **Playwright** for robust web scraping.
+  - **Quartz.NET** to schedule daily data gathering tasks.
+- **Data Processing:** 
+  - **PdfPig** to extract text from PDF documents.
+  - **YoutubeDLSharp** to process video content from debates.
 
 ### Frontend Development
 
-The frontend was developed using **Next.js**, **React**, and **TypeScript**, creating a fast and modern user experience. The UI was styled with **Tailwind CSS**. **SignalR** was also used on the frontend to receive real-time updates from the backend.
+The frontend was developed using **Next.js**, **React**, and **TypeScript**, creating a fast and modern user experience. 
+- The UI was styled with **Tailwind CSS**. 
+- **SignalR** was also used on the frontend to receive real-time updates from the backend.
 
 ## What I Learned
 
