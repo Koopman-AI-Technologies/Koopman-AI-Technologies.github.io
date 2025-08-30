@@ -38,6 +38,16 @@ ninja.data = [{
           description: "An AI-powered tool to automate the processing of political information from the Dutch House of Representatives.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1-tk-search/";
+            },},{id: "projects-lean-reinforcement",
+          title: 'Lean Reinforcement',
+          description: "A work-in-progress research project applying Reinforcement Learning to automated theorem proving in the Lean mathematical language.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2-lean-reinforcement/";
+            },},{id: "projects-geometric-erwin-model",
+          title: 'Geometric Erwin Model',
+          description: "A research project focused on developing a novel geometric deep learning model for 3D point cloud processing.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3-geo-erwin/";
             },},{
         id: 'social-email',
         title: 'email',
