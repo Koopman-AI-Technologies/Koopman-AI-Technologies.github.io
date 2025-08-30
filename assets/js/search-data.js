@@ -33,7 +33,12 @@ ninja.data = [{
         },{id: "news-founding-of-koopman-ai-technologies",
           title: 'Founding of Koopman AI Technologies.',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "projects-automated-political-information-assistant",
+          title: 'Automated Political Information Assistant',
+          description: "An AI-powered tool to automate the processing of political information from the Dutch House of Representatives.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1-tk-search/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
