@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "news-founding-of-koopman-ai-technologies",
+        },{id: "post-geometry-in-deep-learning-a-primer-on-groups-and-representations",
+      
+        title: 'Geometry in Deep Learning: A Primer on Groups and Representations <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "An introduction to the role of geometry, group theory, and representation theory in modern deep learning.",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://gerbenkoopman.github.io/blog/2025/geometry-in-deep-learning/", "_blank");
+        
+      },
+    },{id: "news-founding-of-koopman-ai-technologies",
           title: 'Founding of Koopman AI Technologies.',
           description: "",
           section: "News",},{id: "news-new-project-post-for-an-automated-political-information-assistant",
